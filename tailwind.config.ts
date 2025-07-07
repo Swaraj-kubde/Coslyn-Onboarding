@@ -66,7 +66,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Evolvyn brand colors
+				// coslyn brand colors
 				'electric-blue': '#007BFF',
 				'tech-purple': '#6C63FF',
 				'neon-green': '#39FF14',

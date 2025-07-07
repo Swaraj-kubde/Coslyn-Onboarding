@@ -115,12 +115,22 @@ const OnboardingForm = () => {
       <div className="max-w-2xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <div className="w-20 h-20 mx-auto bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
               <span className="text-white font-bold text-2xl">C</span>
             </div>
-          </div>
-          <h1 className="text-4xl font-bold text-white mb-3">COSLYN AI</h1>
+          </div> */}
+          <h1
+            className="text-4xl font-bold mb-3"
+            style={{
+              background: "linear-gradient(90deg, #3971f5 0%, #7f30f5 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              fontFamily: "sans-serif",
+            }}
+          >
+            COSVYN AI
+          </h1>
           <p className="text-blue-200 text-lg leading-relaxed max-w-lg mx-auto mb-8">
             Scaling Businesses with AI | Eliminating Repetitive Tasks through
             Smart Automation
