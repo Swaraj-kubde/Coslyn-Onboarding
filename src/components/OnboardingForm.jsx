@@ -95,7 +95,7 @@ const OnboardingForm = () => {
           },
         }
       );
-      alert("✅ Submitted to n8n!");
+      alert("Thank you! Your onboarding form has been submitted.!");
       setFormData({
         fullName: "",
         email: "",
