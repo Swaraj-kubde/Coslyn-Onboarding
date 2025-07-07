@@ -83,7 +83,7 @@ const OnboardingForm = () => {
     }
     try {
       await axios.post(
-        "https://swarajevolvyn.app.n8n.cloud/webhook/138cb8f3-c9cd-498e-bb09-2a60bcc5895c",
+        "https://aicoslyn.app.n8n.cloud/webhook/138cb8f3-c9cd-498e-bb09-2a60bcc5895c",
         {
           ...formData,
           message: "this is done",
@@ -117,10 +117,10 @@ const OnboardingForm = () => {
         <div className="text-center mb-12">
           <div className="mb-6">
             <div className="w-20 h-20 mx-auto bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-2xl">E</span>
+              <span className="text-white font-bold text-2xl">C</span>
             </div>
           </div>
-          <h1 className="text-4xl font-bold text-white mb-3">Evolvyn</h1>
+          <h1 className="text-4xl font-bold text-white mb-3">COSLYN AI</h1>
           <p className="text-blue-200 text-lg leading-relaxed max-w-lg mx-auto mb-8">
             Scaling Businesses with AI | Eliminating Repetitive Tasks through
             Smart Automation
@@ -210,7 +210,7 @@ const OnboardingForm = () => {
                     value={formData.phone}
                     onChange={(e) => handleInputChange("phone", e.target.value)}
                     className="h-12 rounded-xl bg-white/10 border-white/20 text-white placeholder:text-blue-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-400/20 transition-all duration-200"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+91 987654XXXX"
                   />
                 </div>
 
@@ -308,7 +308,7 @@ const OnboardingForm = () => {
         {/* Footer */}
         <div className="text-center mt-12 text-blue-300">
           <p className="text-sm">
-            © 2025 Evolvyn. Transforming businesses through intelligent
+            © 2025 COSYLN AI. Transforming businesses through intelligent
             automation.
           </p>
         </div>

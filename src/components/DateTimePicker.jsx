@@ -90,7 +90,7 @@ const DateTimePicker = ({ value, onChange }) => {
       </div>
       
       <p className="text-xs text-blue-200">
-        Available Monday-Friday, 9:00 AM - 5:30 PM (EST)
+        Available Monday-Friday, 9:00 AM - 5:30 PM (IST)
       </p>
     </div>
   );
