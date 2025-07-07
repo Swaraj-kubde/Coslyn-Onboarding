@@ -129,7 +129,7 @@ const OnboardingForm = () => {
               fontFamily: "sans-serif",
             }}
           >
-            COSVYN AI
+            COSLYN AI
           </h1>
           <p className="text-blue-200 text-lg leading-relaxed max-w-lg mx-auto mb-8">
             Scaling Businesses with AI | Eliminating Repetitive Tasks through
